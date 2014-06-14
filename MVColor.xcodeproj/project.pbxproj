@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0D60D82194C1100009307C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D60D81194C1100009307C3 /* AppDelegate.swift */; };
+		F0D60D84194C1100009307C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0D60D83194C1100009307C3 /* Images.xcassets */; };
+		F0D60D90194C1100009307C3 /* MVColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D60D8F194C1100009307C3 /* MVColorTests.swift */; };
+		F0D60D9C194C257B009307C3 /* MVColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D60D9B194C257B009307C3 /* MVColor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0D60D8A194C1100009307C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0D60D74194C1100009307C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0D60D7B194C1100009307C3;
+			remoteInfo = MVColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0D60D7C194C1100009307C3 /* MVColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D60D80194C1100009307C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0D60D81194C1100009307C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0D60D83194C1100009307C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F0D60D89194C1100009307C3 /* MVColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D60D8E194C1100009307C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0D60D8F194C1100009307C3 /* MVColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVColorTests.swift; sourceTree = "<group>"; };
+		F0D60D9B194C257B009307C3 /* MVColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVColor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0D60D79194C1100009307C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D60D86194C1100009307C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0D60D73194C1100009307C3 = {
+			isa = PBXGroup;
+			children = (
+				F0D60D7E194C1100009307C3 /* MVColor */,
+				F0D60D8C194C1100009307C3 /* MVColorTests */,
+				F0D60D7D194C1100009307C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0D60D7D194C1100009307C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0D60D7C194C1100009307C3 /* MVColor.app */,
+				F0D60D89194C1100009307C3 /* MVColorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0D60D7E194C1100009307C3 /* MVColor */ = {
+			isa = PBXGroup;
+			children = (
+				F0D60D81194C1100009307C3 /* AppDelegate.swift */,
+				F0D60D83194C1100009307C3 /* Images.xcassets */,
+				F0D60D7F194C1100009307C3 /* Supporting Files */,
+				F0D60D9B194C257B009307C3 /* MVColor.swift */,
+			);
+			path = MVColor;
+			sourceTree = "<group>";
+		};
+		F0D60D7F194C1100009307C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0D60D80194C1100009307C3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0D60D8C194C1100009307C3 /* MVColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0D60D8F194C1100009307C3 /* MVColorTests.swift */,
+				F0D60D8D194C1100009307C3 /* Supporting Files */,
+			);
+			path = MVColorTests;
+			sourceTree = "<group>";
+		};
+		F0D60D8D194C1100009307C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0D60D8E194C1100009307C3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0D60D7B194C1100009307C3 /* MVColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0D60D93194C1100009307C3 /* Build configuration list for PBXNativeTarget "MVColor" */;
+			buildPhases = (
+				F0D60D78194C1100009307C3 /* Sources */,
+				F0D60D79194C1100009307C3 /* Frameworks */,
+				F0D60D7A194C1100009307C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVColor;
+			productName = MVColor;
+			productReference = F0D60D7C194C1100009307C3 /* MVColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0D60D88194C1100009307C3 /* MVColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0D60D96194C1100009307C3 /* Build configuration list for PBXNativeTarget "MVColorTests" */;
+			buildPhases = (
+				F0D60D85194C1100009307C3 /* Sources */,
+				F0D60D86194C1100009307C3 /* Frameworks */,
+				F0D60D87194C1100009307C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0D60D8B194C1100009307C3 /* PBXTargetDependency */,
+			);
+			name = MVColorTests;
+			productName = MVColorTests;
+			productReference = F0D60D89194C1100009307C3 /* MVColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0D60D74194C1100009307C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Michael Vu";
+				TargetAttributes = {
+					F0D60D7B194C1100009307C3 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F0D60D88194C1100009307C3 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F0D60D7B194C1100009307C3;
+					};
+				};
+			};
+			buildConfigurationList = F0D60D77194C1100009307C3 /* Build configuration list for PBXProject "MVColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F0D60D73194C1100009307C3;
+			productRefGroup = F0D60D7D194C1100009307C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0D60D7B194C1100009307C3 /* MVColor */,
+				F0D60D88194C1100009307C3 /* MVColorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0D60D7A194C1100009307C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D60D84194C1100009307C3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D60D87194C1100009307C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0D60D78194C1100009307C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D60D9C194C257B009307C3 /* MVColor.swift in Sources */,
+				F0D60D82194C1100009307C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D60D85194C1100009307C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D60D90194C1100009307C3 /* MVColorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0D60D8B194C1100009307C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0D60D7B194C1100009307C3 /* MVColor */;
+			targetProxy = F0D60D8A194C1100009307C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F0D60D91194C1100009307C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0D60D92194C1100009307C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0D60D94194C1100009307C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MVColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0D60D95194C1100009307C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MVColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F0D60D97194C1100009307C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MVColor.app/MVColor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MVColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		F0D60D98194C1100009307C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MVColor.app/MVColor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MVColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0D60D77194C1100009307C3 /* Build configuration list for PBXProject "MVColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D60D91194C1100009307C3 /* Debug */,
+				F0D60D92194C1100009307C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0D60D93194C1100009307C3 /* Build configuration list for PBXNativeTarget "MVColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D60D94194C1100009307C3 /* Debug */,
+				F0D60D95194C1100009307C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0D60D96194C1100009307C3 /* Build configuration list for PBXNativeTarget "MVColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D60D97194C1100009307C3 /* Debug */,
+				F0D60D98194C1100009307C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0D60D74194C1100009307C3 /* Project object */;
+}
