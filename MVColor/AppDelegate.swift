@@ -17,7 +17,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary?) -> Bool {
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         // Override point for customization after application launch.
-        self.window!.backgroundColor = UIColor.colorWithHex(0xff2222)
+        self.window!.backgroundColor = UIColor.colorWithHex(0xff2) //short option
+//        self.window!.backgroundColor = UIColor.colorWithHex(0xff2222) //normal option
+//        self.window!.backgroundColor = UIColor.colorWithHex(0xff2222, alpha:0.5) //alpha optional
+//        self.window!.backgroundColor = UIColor.colorWithHexString("ff0") //short option
+//        self.window!.backgroundColor = UIColor.colorWithHexString("ff0000") //normal option
+//        self.window!.backgroundColor = UIColor.colorWithHexString("#ff0000") //with # option
+//        self.window!.backgroundColor = UIColor.randomColor()
+        
+        NSLog("Hex: %d", UIColor.redColor().hex())
+        NSLog("Hex String: %@", UIColor.redColor().hexString())
+        NSLog("Hex String Values: %@", UIColor.redColor().hexString(0.0, green: 0.0, blue: 10.0, alpha: 1.0))
+        NSLog("Color String for CSS: %@", UIColor.redColor().colorString())
         self.window!.makeKeyAndVisible()
         return true
     }

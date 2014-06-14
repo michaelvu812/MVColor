@@ -88,6 +88,19 @@ extension UIColor {
         return Float(hexComponent)/255.0
     }
     
+    class func randomColor(alpha:Float = 1.0) -> UIColor {
+        var red:Float = 0.0, green:Float = 0.0, blue:Float = 0.0
+        var generated = false
+        if generated == false {
+            generated = true
+            srandom(CUnsignedInt(time(nil)))
+        }
+        red = Float(random())/Float(RAND_MAX)
+        green = Float(random())/Float(RAND_MAX)
+        blue = Float(random())/Float(RAND_MAX)
+        return UIColor(red: red, green: green, blue: blue, alpha: alpha)
+    }
+    
     func hex() -> UInt {
         var red:Float = 0.0, green:Float = 0.0, blue:Float = 0.0, alpha:Float = 0.0
         if (self.getRed(&red, green: &green, blue: &blue, alpha: &alpha) == false) {
@@ -109,19 +122,6 @@ extension UIColor {
     func hexString(red:Float, green:Float, blue:Float, alpha:Float = 1.0) -> String {
         let color = UIColor(red: red, green: green, blue: blue, alpha: alpha)
         return color.hexString()
-    }
-    
-    func randomColor(alpha:Float = 1.0) -> UIColor {
-        var red:Float = 0.0, green:Float = 0.0, blue:Float = 0.0
-        var generated = false
-        if generated == false {
-           generated = true
-            srandom(CUnsignedInt(time(nil)))
-        }
-        red = Float(random())/Float(RAND_MAX)
-        green = Float(random())/Float(RAND_MAX)
-        blue = Float(random())/Float(RAND_MAX)
-        return UIColor(red: red, green: green, blue: blue, alpha: alpha)
     }
     
     func colorString() -> String {
