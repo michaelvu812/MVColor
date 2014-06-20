@@ -5,7 +5,7 @@ A delightful UIColor category for iOS written in Swift.
 
 Supports both prefixed with "#" and without for string-based hex colours. 
 
-Over 140 default colors as aquaColor(), coralColor(), violetColor()
+Over 140 default colors as aquaColor(), coralColor(), violetColor(),...
 
 ## Methods
 
