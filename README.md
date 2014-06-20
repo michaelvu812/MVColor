@@ -9,7 +9,7 @@ Over 140 default colors as aquaColor(), coralColor(), violetColor()
 
 ## Methods
 
-```objective-c
+```swift
 UIColor.colorWithHex(hex, alpha)
 UIColor.colorWithHexString(string, alpha)
 UIColor.colorWithCSS(string)
