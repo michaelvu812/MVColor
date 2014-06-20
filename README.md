@@ -27,7 +27,7 @@ UIColor.tomatoColor()
 
 ## Example
 
-```objective-c
+```swift
 self.window!.backgroundColor = UIColor.colorWithHex(0xff2) //short option
 self.window!.backgroundColor = UIColor.colorWithHex(0xff2222) //normal option
 self.window!.backgroundColor = UIColor.colorWithHex(0xff2222, alpha:0.5) //alpha optional
